@@ -1,0 +1,131 @@
+/*body{*/
+/*    padding: 0px;*/
+/*    margin: 0px auto;*/
+/*    font-size: 13px;*/
+/*}*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+.main-layout{
+    background-color: #e2dff0;
+    height: 100%;
+}
+.nav {
+    background-color: #0099FF;
+    height: 40px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.nav .nav-link {
+    /*list-style-type: none; (dùng để loại bỏ dấu đầu mục và margin, padding ra khỏi danh sách:)*/
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    color: white;
+    padding: 0px 30px 0px 30px;
+}
+.nav image {
+    display: inline-block;
+    padding: 20px;
+    background: #1E1F26;
+    color: white;
+    padding: 0px 30px 0px 10px;
+}
+.banner{
+    padding: 27px 0px;
+    min-height: 50px;
+}
+.banner{
+    /*background: lavender;*/
+    height: auto;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 1200px;
+}
+#btl1 #main{
+    background-color: white;
+    width: 1300px;
+    height: auto;
+    margin: 10px auto;
+}
+#btl1 #main #left {
+    background: white;
+    width: 600px;
+    float: left;
+    min-height: 600px;
+}
+#main #left ul li {
+    list-style: none;
+    margin: 250px 150px 100px 80px;
+}
+#main #left ul li a.active{
+    background: #0099FF;
+   font-size: 25px;
+    color: white;
+}
+#btl1 #main #right{
+    background: white;
+}
+#btl1 #main #right {
+    padding: 20px 0px;
+}
+/*----*/
+/*}*/
+#lay-out{
+    background-color: white;
+    width: 1300px;
+    height: auto;
+    margin: 10px auto;
+}
+/*----*/
+
+/*phần3*/
+#btl3{
+    background: #e2dff0;
+    width: 100%;
+    height: 100% ;
+}
+#btl3 #main3{
+    /*background-color: white;*/
+    width: 1300px;
+    height: auto;
+    margin: 10px auto;
+}
+#btl3 #main3 #left3 {
+    /*background: white;*/
+    width: 600px;
+    float: left;
+    min-height: 500px;
+}
+#main3 #left3 ul li {
+    list-style: none;
+    margin: 80px 150px 100px 80px;
+}
+#main3 #left3 ul li a.active{
+    background: #0099FF;
+    font-size: 20px;
+    color: white;
+}
+#main3 #left3 ul {
+    margin-top: 0;
+    margin-bottom: -1rem;
+}
+#btl3 #main3 #right3{
+    /*background: white;*/
+    padding: 20px 0px;
+}
+#btl3 #main3 #right3 image {
+}
+/*end phần 3*/
+#footer {
+    background: #0099FF;
+    height: auto;
+   color: white;
+}
+#footer li{
+    list-style-type: none;
+    float: left;
+}
