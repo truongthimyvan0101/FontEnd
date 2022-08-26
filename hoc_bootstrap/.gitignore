@@ -1,0 +1,5 @@
+/README
+/.idea
+/node_modules/*
+/package-lock
+
